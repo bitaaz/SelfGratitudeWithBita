@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="15dp"
+    android:background="@drawable/gradient_bg"
+    tools:context=".PostJournalActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/post_journal_image"
+            android:layout_width="395dp"
+            android:layout_height="232dp"
+            android:src="@drawable/image_two" />
+
+        <ImageView
+            android:id="@+id/camera_image"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@android:drawable/ic_menu_camera"
+            android:layout_width="81dp"
+            android:layout_height="70dp"/>
+
+        <TextView
+            android:id="@+id/username_post_journal"
+            android:text="Bitaaaaaaa"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:layout_marginStart="8dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:layout_marginTop="150dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/today_text"
+            android:text="Today"
+            android:textSize="18sp"
+            android:layout_below="@id/username_post_journal"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"/>
+
+
+    </RelativeLayout>
+
+
+
+
+    <EditText
+        android:id="@+id/post_journal_title"
+        android:layout_marginTop="12dp"
+        android:hint="@string/title"
+        android:background="@drawable/input_outline"
+        android:maxLines="1"
+        android:textSize="19sp"
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/post_journal_thoughts"
+        android:layout_width="377dp"
+        android:layout_height="139dp"
+        android:hint="@string/thought"
+        android:inputType="textMultiLine"
+        android:background="@drawable/input_outline"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:maxLines="1"
+        android:textSize="17sp" />
+
+    <ProgressBar
+        android:id="@+id/post_journal_progressbar"
+        android:visibility="gone"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/save_button"
+        android:text="@string/save"
+        android:textColor="@color/purple_200"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

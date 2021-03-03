@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SelfGratitudeWithBita</string>
+    <string name="app_title">Self. Gratitude. Journal</string>
+    <string name="primary_app_sentence">What are you grateful for today?</string>
+    <string name="get_started">Get Started</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="or">Or</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="username">Username</string>
+    <string name="title">Title</string>
+    <string name="thought">Your Thoughts...</string>
+    <string name="save">Save</string>
+    <string name="no_thoughts_hint">Write a journal entry by clicking the \"+\" icon above</string>
+    <string name="add_thoughts">Add Thoughts</string>
+    <string name="signout">SignOut</string>
+</resources>

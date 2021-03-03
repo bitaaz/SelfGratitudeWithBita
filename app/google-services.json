@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "35403359633",
+    "project_id": "selfgratitudewithbita",
+    "storage_bucket": "selfgratitudewithbita.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35403359633:android:2fecc7d7f40a5a8887a630",
+        "android_client_info": {
+          "package_name": "com.example.selfgratitudewithbita"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35403359633-jpl7tff77qu920fq1sf0bluv0vs6gh1t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAraofbXSU2XFtCX5hWSlpNtor0mC3YyuQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35403359633-jpl7tff77qu920fq1sf0bluv0vs6gh1t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
